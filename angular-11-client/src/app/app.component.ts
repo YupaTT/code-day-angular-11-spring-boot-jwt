@@ -33,4 +33,7 @@ export class AppComponent implements OnInit {
     this.tokenStorageService.signOut();
     window.location.reload();
   }
+  function dos(nro:String) {
+    return "hola";
+  }
 }
